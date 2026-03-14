@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>SahiBuy Admin</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 p-6">
+
+<h1 class="text-3xl font-bold mb-6">SahiBuy Admin Panel</h1>
+
+<input id="adminEmail" placeholder="Admin Email" class="border p-2">
+
+<button onclick="adminLogin()" class="bg-blue-600 text-white px-4 py-2">
+
+Login
+
+</button>
+
+<div id="dashboard" class="hidden mt-6">
+
+<h2 class="text-xl mb-4">All Listings</h2>
+
+<div id="adminProducts"></div>
+
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+
+</html>
